@@ -1,0 +1,13 @@
+.feedback {
+    margin-top: 1.5em;
+
+    p {
+        margin-bottom: 0.5em;
+
+        &:last-child {
+            margin-bottom: 0;
+            color: green;
+        }
+    }
+}
+

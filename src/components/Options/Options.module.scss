@@ -1,0 +1,30 @@
+.options {
+    margin-top: 1.5em;
+    gap: .5em;
+    display: flex;
+
+    button {
+        padding: .5em 1.5em;
+        border-radius: .25em;
+        font-weight: 700;
+        border: none;
+        color: #fff;
+
+        &.buttongood {
+            background-color: green;
+        }
+
+        &.buttonneutral {
+            background-color: orange;
+        }
+
+        &.buttonbad {
+            background-color: red;
+        }
+
+        &.buttonreset {
+            background-color: gray;
+        }
+    }
+}
+
